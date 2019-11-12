@@ -2,11 +2,6 @@
   tasks:
   - name: Ansible create file if it doesn't exist example
     file:
-     path: "/tmp/{{filename}}"
-     state: touch
-   tasks:
-  - name: Ansible create file if it doesn't exist example
-    file:
-     path: "/tmp/myfolder/{{filename}}"
+     path: "/home/{{filename}}"
      state: touch  
    
